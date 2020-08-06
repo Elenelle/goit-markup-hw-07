@@ -7,16 +7,16 @@ html {
   box-sizing: inherit;
 }
 :root {
-  --main-text-color: #212121;
-  --text-color: #757575;
-  --white-color: #ffffff;
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --primary-white-color: #ffffff;
   --accent-color: #2196f3;
 }
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
-  background-color: var(--white-color);
-  color: var(--text-color);
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
   margin: 0px;
   padding: 0px;
 }
@@ -50,7 +50,7 @@ p {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: var(--title-text-color);
   margin-bottom: 50px;
 }
 /*header*/
@@ -85,7 +85,7 @@ p {
   color: var(--accent-color);
 }
 .logo-studio {
-  color: var(--main-text-color);
+  color: var(--title-text-color);
 }
 .nav-sections {
   margin-right: 305px;
@@ -96,7 +96,7 @@ p {
 }
 .list-item {
   display: block;
-  color: var(--main-text-color);
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -144,8 +144,8 @@ p {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--text-color);
-  fill: var(--text-color);
+  color: var(--primary-text-color);
+  fill: var(--primary-text-color);
 }
 .contacts:hover,
 .contacts:focus {
@@ -180,7 +180,7 @@ p {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--white-color);
+  color: var(--primary-white-color);
   margin-bottom: 30px;
   padding-left: 452px;
   padding-right: 452px;
@@ -196,7 +196,7 @@ p {
   outline: none;
   cursor: pointer;
   background-color: var(--accent-color);
-  color: var(--white-color);
+  color: var(--primary-white-color);
 }
 .order-buttom:hover,
 .order-buttom:focus {
@@ -238,7 +238,7 @@ p {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-text-color);
+  color: var(--title-text-color);
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -247,7 +247,7 @@ p {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: var(--primary-text-color);
   margin-top: 10px;
 }
 /*directions*/
@@ -285,7 +285,7 @@ p {
   height: 70px;
   background-color: #2f303a;
   opacity: 80%;
-  color: var(--white-color);
+  color: var(--primary-white-color);
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -311,7 +311,7 @@ p {
   height: 422px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
-  background-color: var(--white-color);
+  background-color: var(--primary-white-color);
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
@@ -329,7 +329,7 @@ p {
   letter-spacing: 0.03em;
   margin-top: 30px;
   margin-bottom: 10px;
-  color: var(--main-text-color);
+  color: var(--title-text-color);
 }
 .team-position {
   font-weight: normal;
@@ -337,7 +337,7 @@ p {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: var(--primary-text-color);
   margin-top: 10px;
   margin-bottom: 16px;
 }
@@ -361,13 +361,13 @@ p {
   height: 44px;
   color: #afb1b8;
   border-radius: 50%;
-  background-color: var(--white-color);
+  background-color: var(--primary-white-color);
 }
 .networks-link:hover,
 .networks-link:focus {
   border-radius: 50%;
   background-color: var(--accent-color);
-  color: var(--white-color);
+  color: var(--primary-white-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .network-icon {
@@ -389,7 +389,7 @@ p {
   margin-right: 30px;
 }
 .clients-item {
-  background-color: var(--white-color);
+  background-color: var(--primary-white-color);
   width: 170px;
   height: 90px;
 }
@@ -465,7 +465,7 @@ p {
   margin-bottom: 10px;
 }
 .logo-studio-footer {
-  color: var(--white-color);
+  color: var(--primary-white-color);
 }
 .adress-contact {
   font-family: Roboto;
@@ -474,7 +474,7 @@ p {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: var(--primary-white-color);
   margin-bottom: 9px;
 }
 .email-contact {
@@ -517,7 +517,7 @@ p {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: var(--primary-white-color);
   margin-bottom: 21px;
 }
 .join {
@@ -541,7 +541,7 @@ p {
   align-items: center;
   width: 44px;
   height: 44px;
-  color: var(--white-color);
+  color: var(--primary-white-color);
   background-color: rgba(255, 255, 255, 0.1);
   background-position: center;
   background-repeat: no-repeat;
@@ -581,7 +581,7 @@ p {
 .join b,
 .subscription b {
   margin-bottom: 20px;
-  color: var(--white-color);
+  color: var(--primary-white-color);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -599,7 +599,7 @@ p {
 }
 .icon-send {
   margin-left: 10px;
-  color: var(--white-color);
+  color: var(--primary-white-color);
 }
 .caption {
   margin: 0;
@@ -611,7 +611,7 @@ p {
   text-align: center;
 }
 .button {
-  color: var(--white-color);
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 700;
@@ -661,7 +661,7 @@ p {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: var(--title-text-color);
   padding: 6px 22px;
   background: Solid #f5f4fa;
   border-radius: 4px;
@@ -674,7 +674,7 @@ p {
     0px 3px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   background-color: var(--accent-color);
-  color: var(--white-color);
+  color: var(--primary-white-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*Cases*/
@@ -687,7 +687,7 @@ p {
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  background: var(--white-color);
+  background: var(--primary-white-color);
   outline: 1px solid #eeeeee;
   box-sizing: border-box;
 }
@@ -699,7 +699,7 @@ p {
 }
 .cases-item:hover,
 .cases-item:focus {
-  background: var(--white-color);
+  background: var(--primary-white-color);
   outline: 1px solid #eeeeee;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
@@ -738,7 +738,7 @@ p {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: var(--primary-white-color);
   transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1);
 }
 .case-img {
@@ -751,7 +751,7 @@ p {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: var(--main-text-color);
+  color: var(--title-text-color);
   margin: 20px 24px 4px 24px;
 }
 .case-item {
@@ -759,7 +759,7 @@ p {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: var(--primary-text-color);
   margin: 4px 24px 20px 24px;
 }
 /*Форма "Заказать услугу" на Главной*/
@@ -786,7 +786,7 @@ p {
   transform: translate(-50%, -50%) scale(1);
   min-width: 528px;
   min-height: 581px;
-  background-color: var(--white-color);
+  background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -800,7 +800,7 @@ p {
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background-color: var(--white-color);
+  background-color: var(--primary-white-color);
   cursor: pointer;
   outline: none;
 }
@@ -831,7 +831,7 @@ form {
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: var(--title-text-color);
   margin-bottom: 30px;
 }
 .form-field {
@@ -925,7 +925,7 @@ textarea:focus {
   width: 16px;
   margin-right: 7px;
   background-image: url(../images/vector.svg);
-  background-color: var(--white-color);
+  background-color: var(--primary-white-color);
   transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .policy-checkbox:checked + .checkbox {
@@ -974,7 +974,7 @@ textarea:focus {
   font-size: 16px;
   line-height: 30px;
   outline: none;
-  color: var(--white-color);
+  color: var(--primary-white-color);
   padding: 10px 55px;
   background-color: var(--accent-color);
   border: none;
