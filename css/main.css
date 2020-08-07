@@ -262,4 +262,30 @@ body {
 body ul {
   list-style: none;
 }
+
+.section {
+  margin-bottom: 94px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.section-title.feature {
+  display: none;
+}
+
+.section.team {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /*# sourceMappingURL=main.css.map */
