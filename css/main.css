@@ -252,6 +252,7 @@ body {
   color: #757575;
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
+  font-style: normal;
   font-size: 14px;
   letter-spacing: 0.03em;
   max-width: 1600px;
@@ -264,7 +265,17 @@ body ul {
 }
 
 .section {
+  margin-top: 94px;
   margin-bottom: 94px;
+}
+
+.section.directions {
+  margin-bottom: 188px;
+}
+
+.section.team {
+  background-color: #f5f4fa;
+  margin-bottom: 188px;
 }
 
 .section-title {
@@ -281,11 +292,5 @@ body ul {
 
 .section-title.feature {
   display: none;
-}
-
-.section.team {
-  background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 /*# sourceMappingURL=main.css.map */
