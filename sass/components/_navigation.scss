@@ -1,18 +1,21 @@
 .site-nav {
   display: flex;
-  margin-left: 85px;
-  margin-right: 305px;
+  margin: 0px 305px 0px 85px;
+  padding: 0px;
 
   .item:not(:last-child) {
     margin-right: 50px;
   }
   .link {
     display: block;
-    color: $title-text-color;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+
+    color: $title-text-color;
+
     text-decoration: none;
 
     padding-top: 32px;

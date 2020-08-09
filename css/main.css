@@ -255,7 +255,6 @@ body {
   font-style: normal;
   font-size: 14px;
   letter-spacing: 0.03em;
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -311,6 +310,7 @@ body ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 81px;
 }
 
 .page-header.portfolio {
@@ -318,11 +318,8 @@ body ul {
 }
 
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   color: #2196f3;
   font-family: Raleway;
   font-style: normal;
@@ -345,8 +342,8 @@ body ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 85px;
-  margin-right: 305px;
+  margin: 0px 305px 0px 85px;
+  padding: 0px;
 }
 
 .site-nav .item:not(:last-child) {
@@ -355,11 +352,11 @@ body ul {
 
 .site-nav .link {
   display: block;
-  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: #212121;
   text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -386,5 +383,86 @@ body ul {
   height: 4px;
   background-color: #2196f3;
   border-radius: 2px;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+  -webkit-transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contacts .item:hover, .contacts .item:focus {
+  color: #2196f3;
+}
+
+.contacts-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contacts-icon.email {
+  width: 16px;
+  height: 11px;
+}
+
+.contacts-icon.phone {
+  width: 10px;
+  height: 15px;
+}
+
+.contacts .item + .item {
+  margin-left: 30px;
+}
+
+.hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/header_img.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/header_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 600px;
+  margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0px 0px 30px 0px;
 }
 /*# sourceMappingURL=main.css.map */
