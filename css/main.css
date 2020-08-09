@@ -752,4 +752,53 @@ form {
 .form-input:focus ~ .form-icon {
   fill: #2196f3;
 }
+
+.advantages-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0px;
+}
+
+.advantages-list .item {
+  width: calc((100% - 30px * 3) / 4);
+  height: 251px;
+}
+
+.advantages-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantages-list .item-icon {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  background-color: #f5f4fa;
+}
+
+.advantages-list .advantages-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.advantages-list .title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.advantages-list .advantages-description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin-top: 10px;
+}
 /*# sourceMappingURL=main.css.map */
