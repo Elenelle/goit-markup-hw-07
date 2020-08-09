@@ -6,7 +6,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-/*
 :root {
   --title-text-color: #212121;
   --primary-text-color: #757575;
@@ -21,7 +20,7 @@ body {
   color: var(--primary-text-color);
   margin: 0px;
   padding: 0px;
-}*/
+}
 
 .section {
   width: 1200px;
