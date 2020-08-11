@@ -4,4 +4,8 @@
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+
+  &.footer {
+    display: flex;
+  }
 }

@@ -1,9 +1,7 @@
 .team-list {
   display: flex;
-  justify-content: center;
   margin: 0px;
   padding: 0px;
-  text-align: center;
 
   .item {
     width: calc((100% - 30px * 3) / 4);
@@ -23,23 +21,28 @@
     height: 260px;
     margin-bottom: 30px;
   }
+
   .team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
+
+    color: $title-text-color;
+
     margin-top: 0px;
     margin-bottom: 10px;
-    color: $title-text-color;
   }
+
   .team-position {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
+
     margin-top: 10px;
     margin-bottom: 16px;
   }

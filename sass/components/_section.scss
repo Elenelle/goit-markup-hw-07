@@ -7,9 +7,7 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  &-title.advantages {
-    display: none;
-  }
+
   &-title {
     font-weight: bold;
     font-size: 36px;
@@ -21,5 +19,9 @@
 
     margin-top: 0px;
     margin-bottom: 50px;
+  }
+
+  &-title.hidden {
+    display: none;
   }
 }

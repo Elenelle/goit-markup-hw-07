@@ -15,6 +15,7 @@
     opacity: 0;
     pointer-events: none;
   }
+
   &.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.9);
   }
@@ -55,11 +56,12 @@
   transform: translate(-50%, -50%);
   width: 18px;
   height: 18px;
-  transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
+
   cursor: pointer;
 
   &:hover,
   &:focus {
+    transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
     fill: $accent-color;
   }
 }
@@ -72,14 +74,13 @@ form {
 }
 
 .form-title {
-  margin: 0;
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
   color: $title-text-color;
-  margin-bottom: 30px;
+  margin: 0px 0px 30px 0px;
 }
 
 .form-label {
@@ -137,6 +138,7 @@ form {
     }
   }
 }
+
 .form-input:focus + .form-label.texterea,
 .form-input:not(:placeholder-shown) + .form-label.texterea {
   color: $accent-color;
@@ -187,6 +189,7 @@ form {
 
 .checkbox {
   position: absolute;
+
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -213,6 +216,7 @@ form {
     }
   }
 }
+
 .checkbox:checked + .checkbox-label::before {
   border-color: $accent-color;
   background-color: $accent-color;
